@@ -1,6 +1,6 @@
 import express from "express";
-import router from "./routes/index.ts";
-import { connectToDatabase } from "./db.ts";
+import router from "./src/routes/index.ts";
+import { connectToDatabase } from "./src/config/db.ts";
 import cookieParser from "cookie-parser";
 import dotenv from "dotenv";
 import cors from "cors";

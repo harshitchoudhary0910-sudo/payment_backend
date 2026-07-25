@@ -1,6 +1,6 @@
 import { Router} from "express";
 import { authMiddleware } from "../middleware/auth.ts";
-import { AccountModel ,UserModel} from "../models.ts";
+import { AccountModel ,UserModel} from "../models/models.ts";
 import { validate } from "../middleware/validation.ts";
 import { transferSchema } from "../schemas/user.Schema.ts";
 import type { TransferInput } from "../schemas/user.Schema.ts";

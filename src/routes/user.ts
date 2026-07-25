@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { validate } from "../middleware/validation.ts";
 import { signUpSchema, signInSchema } from "../schemas/user.Schema.ts"
-import { UserModel, AccountModel } from "../models.ts";
+import { UserModel, AccountModel } from "../models/models.ts";
 import type { SignUpInput, SignInInput } from "../schemas/user.Schema.ts";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
