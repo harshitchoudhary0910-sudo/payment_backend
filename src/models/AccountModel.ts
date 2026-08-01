@@ -7,6 +7,15 @@ userId:{
     required: true,
     index: true
 },
+accountNumber: {
+    type: String,
+    unique: true,
+    required: true
+},
+    balance: {
+        type: Number,
+        default: 0
+    },
 status: {
     type: String,
     enum: ["active", "inactive", "suspended"],
