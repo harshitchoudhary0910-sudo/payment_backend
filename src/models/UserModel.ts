@@ -12,6 +12,11 @@ username: {
   password: String,
   firstName: String,
   lastName: String,
+  admin:{
+    type:Boolean,
+    default:false,
+    immutable:true
+  }
  
 },
 {
